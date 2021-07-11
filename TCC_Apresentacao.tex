@@ -63,11 +63,35 @@ Através da Geração de Áudios com Resposta ao Impulso Simuladas por Técnicas
 % SECTION: Conclusão
 \section{Conclusão}
 
-%% ---------------------------------------------------------------------------
-% Agradecimento
-\begin{frame}{}
+\begin{frame} {Conclusões}
+    \begin{itemize}
+        \justifying
+        \item Em grande parte, os resultados alcançados estão condizentes com os valores esperados.
+        \item Discrepância nos valores de T60 podem ser explicados pelas diferenças de implementação entre este projeto e \cite{RIR_Data_Aug}.
+        \item Avaliação empírica das sensações subjetivas de “distância” e “eco” condizentes com as modificações esperadas.
+    \end{itemize}
+\end{frame}
+
+\begin{frame} {Trabalhos Futuros}
+    \begin{itemize}
+        \justifying
+        \item Implementação de uma metodologia de \textit{data augmentation} de T60 mais próxima à usada no artigo \cite{RIR_Data_Aug}.
+        \item Comparação entre as RIRs geradas com a metodologia implementada e RIRs geradas através de programas de simulação acústicas (RAIOS \cite{RAIOS}).
+        \item Proposta de um modelo de rede de \textit{deep learning} para estimação de T60 e DRR em AVCDs para observação da eficácia das RIRs 
+        como aprimoradoras do treinamento de redes neurais.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
     \centering
     \huge{\textbf{\example{Obrigado!}}}    
+\end{frame}
+
+%% ---------------------------------------------------------------------------
+% Referências
+\begin{frame}%[allowframebreaks]
+    \frametitle{Referências}
+    \printbibliography
 \end{frame}
 
 \end{document}
