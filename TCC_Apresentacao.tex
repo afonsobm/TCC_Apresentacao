@@ -1,0 +1,73 @@
+\documentclass{libs/XJTLU_format}
+% Inserting the preamble file with the packages
+\input{libs/preamble.tex}
+% Inserting the references file
+\bibliography{libs/references.bib} 
+
+% Title
+\title[Defesa de Projeto de Graduação]{\normalsize\textbf{Desenvolvimento de Base de Dados para Treinamento de Redes Neurais de Reconhecimento de Voz
+Através da Geração de Áudios com Resposta ao Impulso Simuladas por Técnicas de Data Augmentation}}
+% Subtitle
+%\subtitle{Creating Presentations}
+% Author of the presentation
+\author{Bruno Machado Afonso} 
+
+% Institute's Name
+\institute[- Escola Politécnica]{
+    % email for contact
+    \email{bruno.ma@poli.ufrj.br}
+    \newline
+    % Department Name
+    \department{\scriptsize Departamento de Engenharia Eletrônica e de Computação - Escola Politécnica}
+    \newline
+    % University name
+    \university{\scriptsize Universidade Federal do Rio de Janeiro}
+}
+% date of the presentation
+\date{\today}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Start Document of the Presentation                                           %%               
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\input{libs/code}
+
+%% ---------------------------------------------------------------------------
+% Título
+\begin{frame}{}
+    \includegraphics[scale=0.1]{figs/minerva-ufrj.png} \hspace{3cm} \vspace{-0.2cm}
+    \includegraphics[scale=0.15]{figs/poli.png} \hspace{2cm} \vspace{-0.2cm}
+    \includegraphics[scale=0.25]{figs/del.png} \hspace{-0.1cm} \vspace{-0.1cm}
+    \maketitle
+\end{frame} 
+
+%% ---------------------------------------------------------------------------
+% Sumário
+\begin{frame}{Sumário}
+    \begin{multicols}{2}
+        \tableofcontents
+    \end{multicols}
+\end{frame}
+
+%% ---------------------------------------------------------------------------
+% SECTION: Motivação
+\section{Motivação}
+
+\begin{frame}{Motivação}
+    Texto de Exemplo para a motivaçãoasdfasffdsa
+\end{frame}
+
+
+%% ---------------------------------------------------------------------------
+% SECTION: Conclusão
+\section{Conclusão}
+
+%% ---------------------------------------------------------------------------
+% Agradecimento
+\begin{frame}{}
+    \centering
+    \huge{\textbf{\example{Obrigado!}}}    
+\end{frame}
+
+\end{document}
